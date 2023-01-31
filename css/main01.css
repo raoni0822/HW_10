@@ -770,12 +770,10 @@
 #subPage .subMenu {
     position: relative;
     height: 350px;
-
-    background: url(../img/img_visual_sandwich.jpg) 0 0 no-repeat;
 }
 
 #subPage .subMenu .bar {
-    border-bottom: 1px solid rgba(221, 221, 221, 0.2);
+    border-bottom: 1px solid rgba(221, 221, 221, 0.5);
 }
 
 #subPage .subMenu .smenu {
@@ -799,19 +797,19 @@
     height: 4px;
     border-radius: 50%;
     background: #dddddd;
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 #subPage .subMenu .smenu a {
     display: block;
     font-size: 16px;
     line-height: 60px;
-    color: #fff;
+    color: #999999;
 }
 
 #subPage .subMenu .smenu a.on {
-    color: #ffce32;
-    border-bottom: 4px solid #ffce32;
+    color: #009223;
+    border-bottom: 4px solid #009223;
 }
 
 #subPage .subMenu .slogan {
@@ -821,110 +819,10 @@
     transform: translate(-50%, -50%);
 
     text-align: center;
-    color: #fff;
+    color: #292929;
 }
 
 #subPage .subMenu .slogan h2 {
-    font-size: 70px;
-    font-weight: 700;
-    letter-spacing: 2px;
-
-    margin: 0 0 30px 0;
-}
-
-#subPage .subMenu .slogan p {
-    line-height: 20px;
-}
-
-#subPage .subMenu .pd_tab {
-    position: absolute;
-    bottom: -40px;
-    left: 50%;
-    transform: translate(-50%, 0);
-
-    background: #f9f9f9;
-    box-shadow: 0px 7px 21px 3px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0px 7px 21px 3px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 7px 21px 3px rgba(0, 0, 0, 0.1);
-}
-
-#subPage .subMenu .pd_tab ul {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-}
-
-#subPage .subMenu .pd_tab li {
-    position: relative;
-}
-
-#subPage .subMenu .pd_tab li~li::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: -30px;
-    transform: translate(0, -50%);
-
-    width: 1px;
-    height: 12px;
-
-    background: #ddd;
-}
-
-#subPage .subMenu .pd_tab a {
-    display: block;
-    line-height: 80px;
+    font-size: 40px;
     font-weight: 500;
-    color: #666666;
-}
-
-#subPage .subMenu .pd_tab a.on {
-    color: #009223;
-}
-
-/* #subItm */
-
-#subPage .subItm {
-    padding: 100px 0;
-    background: #f2f2f2;
-}
-
-#subPage .subItm ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-}
-
-#subPage .subItm ul li {}
-
-#subPage .subItm figure {
-    background: #fff;
-
-    display: flex;
-    flex-direction: column;
-
-    text-align: center;
-}
-
-#subPage .subItm figure img {
-    width: 280px;
-    margin: 0 auto;
-}
-
-#subPage .subItm figure strong {
-    font-size: 22px;
-    font-weight: 500;
-    margin: 0 0 10px 0;
-}
-
-#subPage .subItm figure p {
-    color: #444444;
-    margin: 0 0 20px 0;
-}
-
-#subPage .subItm figure span {
-    font-size: 20px;
-    font-weight: 700;
-    color: #ffc300;
-    margin: 0 0 30px 0;
 }
